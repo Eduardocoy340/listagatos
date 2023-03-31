@@ -1,0 +1,255 @@
+
+h2 {
+    color: rgb(3, 252, 127);  
+
+}
+
+h3 {
+    color: rgb(3, 20, 252);
+}
+
+p {
+    color: rgb(232, 12, 93);
+}
+
+.lista-de-gatos{
+    color: rgb(217, 113, 39);
+}
+
+.lista-de-gato{
+    color: rgb(217, 113, 39);
+}
+
+h2 {
+    font-family:'Orbitron', sans-serif;;
+}
+
+img{
+    width: 250px;
+    border-width: 5px;
+    border-color: rgb(3, 20, 252);
+    border-style: groove;
+}
+
+#titulo-principal{
+    font-size: 30px;
+    color:#a61e49;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    margin: 25px;
+    padding: 15px 15px 15px 15px;
+    background-color: #e8f013;
+    border-width: 2px;
+    border-color: #000;
+    border-style: solid;
+}
+
+[type="radio"]{
+margin: 5px;
+}
+
+a[href="https://www.freecodecamp.org/espanol/"]{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a[href="#"]{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+body{
+    background-color: #faa107;
+
+
+}
+.pinguino {
+    --pinguino-barriga: rgb(255, 255, 255);
+    --pinguino-pico: rgb(255, 165, 0);
+    --pinguino-piel: rgb(128, 128, 128);
+    --pinguino-mejillas:rgb(255, 192, 203);
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  
+.pinguino-superior {
+  top: 10%;
+  left: 25%;
+  background: grey;
+  background: var(--pinguino-piel, grey);
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.pinguino-inferior {
+  top: 40%;
+  left: 23.5%;
+  background: grey;
+  background: var(--pinguino-piel, grey);
+  width: 53%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
+}
+
+.mano-derecha {
+  top: 0%;
+  left: -5%;
+  background: grey;
+  background: var(--pinguino-piel,grey);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.mano-izquierda {
+  top: 0%;
+  left: 75%;
+  background: grey;
+  background: var(--pinguino-piel,grey);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 30% 120%;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.mejilla-derecha {
+  top: 15%;
+  left: 35%;
+  background: white;
+  background: var(--pinguino-barriga, white);
+  width: 60%;
+  height: 70%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.mejilla-izquierda {
+  top: 15%;
+  left: 5%;
+  background: white;
+  background: var(--pinguino-barriga, white);
+  width: 60%;
+  height: 70%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.barriga {
+  top: 60%;
+  left: 2.5%;
+  background: white;
+  background: var(--pinguino-barriga, white);
+  width: 95%;
+  height: 100%;
+  border-radius: 120% 120% 100% 100%;
+}
+
+.pie-derecho {
+  top: 85%;
+  left: 60%;
+  background: orange;
+  background: var(--pinguino-pico, orange);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-80deg);
+  z-index: -2222;
+}
+
+.pie-izquierdo {
+  top: 85%;
+  left: 25%;
+  background: orange;
+  background: var(--pinguino-pico, orange);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(80deg);
+  z-index: -2222;
+}
+
+.ojo-derecho {
+  top: 45%;
+  left: 60%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.ojo-izquierdo {
+  top: 45%;
+  left: 25%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.reflejo-ojos {
+  top: 25%;
+  left: 15%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.color-mejilla-derecha {
+  top: 65%;
+  left: 15%;
+  background: pink;
+  background: var(--pinguino-mejillas,pink);
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.color-mejilla-izquierda {
+  top: 65%;
+  left: 70%;
+  background: pink;
+  background: var(--pinguino-mejillas,pink);
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.pico-superior {
+  top: 60%;
+  left: 40%;
+  background: orange;
+  background: var(--pinguino-pico, orange);
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.pico-inferior {
+  top: 65%;
+  left: 42%;
+  background: orange;
+  background: var(--pinguino-pico, orange);
+  width: 16%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+body {
+  background:#06b1b4;
+}
+
+.pinguino * {
+  position: absolute;
+}
